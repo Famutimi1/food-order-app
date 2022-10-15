@@ -1,0 +1,74 @@
+.header{
+    display: flex;
+    background-color: rgb(235, 176, 16);
+    justify-content: space-between;
+    height: 50px;
+    padding: 8px;
+    position: relative;
+}
+
+.logo{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(89, 87, 197);
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid rgb(228, 88, 95);
+    text-align: center;
+}
+
+.logo span{
+    color: rgb(42, 5, 253);
+}
+
+
+.formcon{
+    border-radius: 10px;
+    width: 700px;
+}
+
+input{
+    width: 80% ;
+    flex: 1;
+    border: none;
+    height: 100%;
+    margin-top: -40;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    outline: none;
+    text-align: center;
+}
+
+.hb{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;   
+    height: 100%;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+}
+
+.infocos{
+    display: flex;
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: smaller;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.carticon span {
+    background-color: red;
+    border-radius: 50%;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    font-weight: 30px !important;
+    font-size: 9px !important ;  
+    position: absolute;
+    margin-left: 12px;
+    margin-top: -8px;
+    width: 18px;
+}

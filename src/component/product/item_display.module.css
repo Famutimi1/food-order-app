@@ -1,0 +1,70 @@
+.discon{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    min-width: 200px;
+    flex: 1;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.inerdiscon{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+
+.img{
+    width: 100%;
+    
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.disc{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.add{
+    align-items: center;
+    text-align: center;
+}
+
+.add button{
+    padding: 3px;
+    background-color: yellow;
+    border-radius: 5px;
+    width: 100px;
+}
+.price{
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    font-weight: bolder;
+    word-spacing: 20px;
+}
+
+.df{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255,153,0) ;
+    align-items: center;
+}
+
+.df button{
+    width: 50px;
+    background-color: rgb(255,153,0);
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.num{
+    margin-top: 7px;
+}

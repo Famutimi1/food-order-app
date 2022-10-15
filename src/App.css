@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:rgb(242,243,247);
+    height: inherit;
+}
+
+.App{
+    
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.topimg{
+    width: 100%;
+    height: 200px;
+}
+
+img{
+    height: 200px;
+    width: 600px;
+}
+
+.cartitems{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    margin-top: -200px;
+    margin-left: 35%;
+    margin-right: auto;
+    overflow: scroll;
+}
